@@ -15,7 +15,9 @@ body {
 
 .titulo {
     padding: 10px;
+
     font-size: 32px;
+
     background-color: #e1edf2;
 }
 
@@ -84,6 +86,7 @@ figure img {
 
 .rodape {
     padding: 1.75em 0;
+
     font-size: 1.1rem;
 }
 
@@ -94,4 +97,42 @@ figure img {
 .rodope_copyright {
     display: inline;
     margin-left: 1em;
+}
+
+/* Media queries */
+@media (max-width: 622px) {
+
+    .familia-tupfeln{
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .contato__subtitulo {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+.contato__info {
+    padding-left: 5px;
+
+    font-size: 0.92em;
+
+    border-left: 2px solid lightgray;
+}
+
+.rodape {
+    font-size: 0.92em;
+}
+
+@media (max-width: 342px) {
+
+    .contato__info-descricao {
+        display: block;
+        margin-left: 1em;
+    }
+    
 }
