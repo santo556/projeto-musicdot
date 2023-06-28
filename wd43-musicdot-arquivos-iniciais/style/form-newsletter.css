@@ -10,7 +10,7 @@
 
 .form-newsletter__label {
     position: absolute;
-    left: -1000px;
+    left: -10000px;
     width:  1px;
     height: 1px;
     overflow: hidden;
