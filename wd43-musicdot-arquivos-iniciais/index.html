@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
-    <link rel="stylesheet" href="style/cabecalho.css">
-    <link rel="stylesheet" href="style/container.css">
-    <link rel="stylesheet" href="css/cursos.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style/container.css">
+    <link rel="stylesheet" href="style/cabecalho.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="style/rodape.css">
     <link rel="stylesheet" href="style/form-newsletter.css">
+    
     <title>MusicDot</title>
 </head>
 <body>
@@ -30,12 +32,58 @@
     </header>
     
     <main>
-        <!-- Contúdo principal -->
-        Conteúdo principal
+       <section class="cursos">
+            <article class="cursos__chamada --largura-grande">
+                <h1 class="chamada__titulo">Curso online de <strong class="chamada__titulo--destaque">Música</strong></h1>
+                <p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
+            <a href="cursos.html" class="chamada__cursos__matricula botao">Matricula-se</a>
+            </article>
+            <nav>
+                <ul class="cursos__lista">
+                    <li class="curso--tecladopiano">
+                        <a href="#">Teclado & Piano</a>
+                    </li>
+                    <li class="curso--violaoguitarra">
+                        <a href="#">Violão & Guitarra</a>
+                    </li>
+                    <li class="curso--baixo">
+                        <a href="#">Baixo</a>
+                    </li>
+                    <li class="curso--bateria curso--destaque">
+                        <a href="#">Bateria</a>
+                    </li>
+                    <li class="curso--percussao">
+                        <a href="#">Percussão</a>
+                    </li>
+                    <li class="curso--canto curso--destaque">
+                        <a href="#">Canto</a>
+                    </li>
+                    <li class="curso--audio">
+                        <a href="#">Áudio</a>
+                    </li>
+                    <li class="curso--teoria">
+                        <a href="#">Áudio</a>
+                    </li>
+                    <li class="curos--sopro">
+                        <a href="#">Sopro</a>
+                    </li>
+                    <li class="curso--cordas">
+                        <a href="#">Cordas</a>
+                    </li>
+                </ul>
+            </nav>
+       </section>
+       <section class="video">
+            <video controls class="video--mobile" src="video/video-promocional.mp4" poster="img/video-principal-mobile.png"></video>
+            <video class="video--desktop" src="video/video-promocional.mp4" poster="img/video-principal.png"></video>
+            <article class="video__textos">
+                <h2 class="textos__titulo">Estude com os melhores professores</h2>
+                <p>Aprenda no seu ritmo, sem sair de casa</p>
+            </article>
+       </section>
     </main>
 
     <footer class="rodape container">
-        <!-- Conteúdo do footer -->
         <section class="rodape__secao rodape__secao--sobre">
             <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
 
