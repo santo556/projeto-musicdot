@@ -19,19 +19,19 @@
     background-position: top 20px center;
 }
 
-.beneficios--paravoce {
+.beneficio--paravoce {
     background-image: url(../img/icone-beneficios-tudo-para-voce.svg);
 }
 
-.beneficios--duvidas {
+.beneficio--duvidas {
     background-image: url(../img/icone-beneficios-nenhuma-duvida.svg);
 }
 
-.beneficios--didatica {
+.beneficio--didatica {
     background-image: url(../img/icone-beneficios-didatica-cuidadosa.svg);
 }
 
-.beneficios--online {
+.beneficio--online {
     background-image: url(../img/icone-beneficios-online.svg);
 }
 
