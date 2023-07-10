@@ -86,7 +86,7 @@
 @media(min-width: 768px) {
     .chamada__youtube {
         grid-template-columns: 1fr 1fr;
-        grid-template-columns: 
+        grid-template-areas: 
         "chamada chamada"
         "video1 video2";
     }
