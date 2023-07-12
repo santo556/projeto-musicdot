@@ -1,7 +1,8 @@
 .form-newsletter {
     display: flex;
     width: 100%;
-    overflow: border-box;
+    overflow: hidden;
+    box-sizing: border-box;
 
     border-radius: 7px;
     border: 2px solid #e93d50;
